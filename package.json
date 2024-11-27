@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-import-scope",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "github:seno-dev/eslint-plugin-import-scope",
   "license": "MIT",
   "author": "Seno <seno.rs2837@gmail.com>",
