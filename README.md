@@ -5,7 +5,7 @@ This package provides a typescript-eslint rule that allows importing specified d
 ## Installation
 
 ```sh
-npm i -D eslint-plugin-import-access
+npm i -D eslint-plugin-import-scope
 ```
 
 ## Usage
