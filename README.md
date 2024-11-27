@@ -15,7 +15,6 @@ This plugin only supports Flat Config.
 In **.eslintrc.js**:
 
 ```js
-import typescriptEslintParser from '@typescript-eslint/parser'
 import importScope from 'eslint-plugin-import-scope'
 
 export default [
