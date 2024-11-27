@@ -1,0 +1,135 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`import-scope > app/a/page.ts 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 32,
+    "endLine": 4,
+    "line": 4,
+    "message": "Importing '__fixtures__/features/b/utils.ts' is only allowed inside '__fixtures__/features/b'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 9,
+    "line": 9,
+    "message": "Importing '__fixtures__/features/b/utils.ts' is only allowed inside '__fixtures__/features/b'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`import-scope > app/page.ts 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 29,
+    "endLine": 2,
+    "line": 2,
+    "message": "Importing '__fixtures__/features/a/utils.ts' is only allowed inside '__fixtures__/features/a' or '__fixtures__/app/a'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 29,
+    "endLine": 4,
+    "line": 4,
+    "message": "Importing '__fixtures__/features/b/utils.ts' is only allowed inside '__fixtures__/features/b'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 7,
+    "line": 7,
+    "message": "Importing '__fixtures__/features/a/utils.ts' is only allowed inside '__fixtures__/features/a' or '__fixtures__/app/a'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 9,
+    "line": 9,
+    "message": "Importing '__fixtures__/features/b/utils.ts' is only allowed inside '__fixtures__/features/b'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`import-scope > features/a/api.ts 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 4,
+    "line": 4,
+    "message": "Importing '__fixtures__/features/b/utils.ts' is only allowed inside '__fixtures__/features/b'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 9,
+    "line": 9,
+    "message": "Importing '__fixtures__/features/b/utils.ts' is only allowed inside '__fixtures__/features/b'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`import-scope > features/a/utils.ts 1`] = `[]`;
+
+exports[`import-scope > features/b/api.ts 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 2,
+    "line": 2,
+    "message": "Importing '__fixtures__/features/a/utils.ts' is only allowed inside '__fixtures__/features/a' or '__fixtures__/app/a'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 7,
+    "line": 7,
+    "message": "Importing '__fixtures__/features/a/utils.ts' is only allowed inside '__fixtures__/features/a' or '__fixtures__/app/a'",
+    "messageId": "outside-scope",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import-scope/import-scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`import-scope > features/b/utils.ts 1`] = `[]`;
